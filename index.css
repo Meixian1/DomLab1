@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(210, 243, 224);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: blue;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100%; /* Make sure the body takes up the full viewport height */
+}
+
+h1 {
+  
+    text-decoration: underline;
+    font-size: 40px; 
+}
+
+.image1{
+    display: block;
+    margin: 0 auto;
+}
+
+/* Your existing CSS styles */
+
+/* Set a maximum height for the paragraph area and allow vertical scrolling */
+p {
+    max-height: 1000px; /* Adjust this value as needed */
+    padding: 20px; 
+
+    margin-left: auto;
+    margin-right: 20px;
+
+    /* Maintain left and right margins while restricting vertical position */
+    margin-top: 10px;
+    margin-bottom: 50px;
+    position: relative;
+    top: 20px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+
+button {
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+textarea {
+    padding: 10px; /* Reduce the padding value */
+    width: 400%;
+    height: 150px;
+    overflow-y: scroll;
+    resize: none;
+}
